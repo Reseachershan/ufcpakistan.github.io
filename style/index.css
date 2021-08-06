@@ -1,0 +1,94 @@
+
+
+
+a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 5px;
+}
+a:hover{
+    color: white;
+}
+.navbar-text i{
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+.get p{
+    font-size: 15px;
+    display: flex;
+    color: white;
+    font-weight:600;   
+    height: 50px;
+    align-items: center;
+ margin-left: 30px;
+}
+.cards{
+    background-color: black;
+    
+
+}
+.card{
+    transition: 0.5s all;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+transform: scale(1.1);
+
+}
+.toping{
+    display: flex;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    /* border: 2px solid white; */
+    margin: auto;
+    z-index: 100;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all;
+}
+.toping:hover{
+    border: 1px solid white;
+}
+
+.card img{
+    filter: brightness(30%);
+    transition: 0.5s all;
+}
+
+.carousel-control-prev-icon:hover{
+    
+    background-color: red;
+}
+.carousel-control-next-icon:hover{
+    
+    background-color: red;
+}
+hr {border-top: 1px solid #000; }
+
+a {color: #000;}
+
+a:link{text-decoration:none;}
+
+.box1{background: rgb(76, 175, 80, 0.6);}
+.box2{background: rgb(192, 192, 200, 0.6);}
+.box3{background: rgb(255, 0, 0, 0.6);;}
+
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
+.col-0 i{
+    font-size: 35px;
+    margin: 10px;
+}
